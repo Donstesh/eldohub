@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Ubuntu-Mono;
+    src: url(UbuntuMono-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Ubuntu-Mono;
+}
+
+body {
+    background-color: #eeeff0;
+}
+
+.container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+header{
+
+    height: 70px;
+    background-color: #c76868;
+    color: #ffffff;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+}
+
+form {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+form input{
+    font-size: 22;
+    padding: 8px 10px;
+}
+
+form input[type='text']{
+    width: 50%;
+
+}
+
+form input[type='submit']{
+    background-color: #c76868;
+    color: #ffffff;
+    border: 1px solid #c76868;
+    border-radius: 5px;
+}
+
+form input[type='submit']:hover{
+    background-color: #ffffff;
+    color: #c76868;
+}
+
+.items {
+
+}
+.item{
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+
+.item span {
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 0 4px;
+    float: right;
+    
+}
+
+.item span:hover {
+    background-color: #ffffff;
+    color: #ff0000;
+}
