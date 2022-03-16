@@ -25,7 +25,10 @@ header{
     font-size: 28px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
+
+
 
 form {
     margin-top: 5px;
