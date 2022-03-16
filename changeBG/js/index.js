@@ -1,7 +1,8 @@
 let btns = document.querySelectorAll('.btn');
+let body = document.querySelector('body');
 
 const changeBodyBG = e => {
-    console.log(e.target.textContent);
+    body.style.backgroundColor = e.target.textContent;
 }
 
 btns.forEach(btn => {
